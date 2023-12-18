@@ -83,12 +83,9 @@ function Trending() {
           // navigation="true"
         >
           {grid.map((item, index) => (
-            <swiper-slide class="pb-[60px]">
+            <swiper-slide key={index} class="pb-[60px]">
               <Link className="transition-all" to={`/single/${item.id}`}>
-                <div
-                  className="card transition-all p-[15px] sm:p-[12px] rounded-[15px] box-border bg-white shadow-md"
-                  key={index}
-                >
+                <div className="card transition-all p-[15px] sm:p-[12px] rounded-[15px] box-border bg-white shadow-md">
                   <img
                     src={item.cover}
                     alt={item.name}
@@ -115,7 +112,11 @@ function Trending() {
             </swiper-slide>
           ))}
         </swiper-container>
-        <img src={Gift} alt="" className="max-w-[126px] w-full h-auto block absolute top-[-100px] right-[220px] md:hidden"/>
+        <img
+          src={Gift}
+          alt=""
+          className="max-w-[126px] w-full h-auto block absolute top-[-100px] right-[220px] md:hidden"
+        />
       </div>
 
       {/* <img src={Vector} alt="" className="absolute w-full bottom-0"/> */}

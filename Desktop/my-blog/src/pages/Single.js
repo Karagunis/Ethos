@@ -42,11 +42,10 @@ function Single() {
       return item !== article;
     });
 
-    console.log(arrayWithoutID)
+    // console.log(arrayWithoutID);
 
     setGrid(arrayWithoutID);
   }, [article, articleCategory]);
-
 
   const swiperRef = useRef(null);
 
@@ -184,12 +183,9 @@ function Single() {
           // navigation="true"
         >
           {grid.map((item, index) => (
-            <swiper-slide class="pb-[51px]">
+            <swiper-slide key={index} class="pb-[51px]">
               <Link className="transition-all" to={`/single/${item.id}`}>
-                <div
-                  className="card transition-all p-[15px] sm:p-[12px] rounded-[15px] box-border bg-white shadow-sm"
-                  key={index}
-                >
+                <div className="card transition-all p-[15px] sm:p-[12px] rounded-[15px] box-border bg-white shadow-sm">
                   <img
                     src={item.cover}
                     alt={item.name}

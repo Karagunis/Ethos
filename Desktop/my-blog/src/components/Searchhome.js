@@ -3,7 +3,10 @@ import Glass from "../assets/search-icon.svg";
 import Box1 from "../assets/gift-search-home-1.png";
 import Box2 from "../assets/gift-search-home-2.png";
 
-function Searchhome() {
+
+function Searchhome({ setSearch }) {
+
+
   return (
     <div className="mt-[90px] md:mt-[130px] mb-[80px] md:mb-[60px] bg-green-search relative">
       <div className="container mx-auto my-0 py-[80px] xl:px-[48px] md:px-[24px] relative md:pt-[60px] md:pb-[60px] md:grid md:justify-items-center	">
@@ -21,18 +24,28 @@ function Searchhome() {
               type="search"
               className="bg-[#0000005c] w-[412px] border rounded-[12px] px-5 pl-[43px] border-[#2B8F9F] placeholder-[#3ADE1D] font-medium text-white outline-none h-[50px] md:w-full"
               placeholder="Search by anything..."
+              // onChange={(e) => setSearch(e.target.value)}
             />
           </div>
           <button
             className="h-[50px] px-[24px] bg-green cursor-pointer text-white font-bold text-[14px] uppercase rounded-full bg-green-shadow hover:shadow-none transition-all"
             type="submit"
+            // onSubmit={onSubmitHandler}
           >
             <span className="tracking-wider">Search</span>
           </button>
         </form>
 
-        <img src={Box1} alt="" className="absolute top-[-51px] left-[-120px] max-w-[120px] w-full h-auto 2xl:right-[333px] 2xl:left-auto md:top-[-21px] md:left-[50%] translate-800" />
-        <img src={Box2} alt="" className="absolute max-w-[150px] w-full h-auto right-[100px] bottom-[-42px] lg:max-w-[130px] lg:right-[66px] md:hidden"/>
+        <img
+          src={Box1}
+          alt=""
+          className="absolute top-[-51px] left-[-120px] max-w-[120px] w-full h-auto 2xl:right-[333px] 2xl:left-auto md:top-[-21px] md:left-[50%] translate-800"
+        />
+        <img
+          src={Box2}
+          alt=""
+          className="absolute max-w-[150px] w-full h-auto right-[100px] bottom-[-42px] lg:max-w-[130px] lg:right-[66px] md:hidden"
+        />
       </div>
     </div>
   );

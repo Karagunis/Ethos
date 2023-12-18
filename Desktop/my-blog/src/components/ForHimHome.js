@@ -29,10 +29,10 @@ function ForHimHome() {
         </h1>
         <div className="grid max-w-[726px] w-full box-border gap-[12px] md:grid md:gap-[18px] md:grid-cols-2 sm:grid-cols-1">
           {grid.map((item, index) => (
-            <Link className="transition-all" to={`/single/${item.id}`}>
+            <Link key={index} className="transition-all" to={`/single/${item.id}`}>
               <div
                 className="card transition-all p-[10px] sm:p-[12px] rounded-[12px] box-border bg-white shadow-md flex gap-[15px] items-center md:grid"
-                key={index}
+                
               >
                 <img
                   src={item.cover}

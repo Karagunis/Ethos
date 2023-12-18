@@ -8,14 +8,14 @@ import ForHimHome from "../components/ForHimHome";
 import ForHimTwo from "../components/ForHimTwo";
 import Trending from "../components/Trending";
 
-function Home() {
+function Home({setSearch}) {
   return (
     <div>
       <ScrollToTop />
       <Trending />
       <ForHimHome />
       <ForHimTwo />
-      <Searchhome />
+      <Searchhome setSearch={setSearch} />
       <Latest />
     </div>
   );

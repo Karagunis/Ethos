@@ -7,7 +7,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 function Outdoor() {
-
   const [grid, setGrid] = useState([]);
 
   useEffect(() => {
@@ -27,7 +26,7 @@ function Outdoor() {
       <div className="category-cover pt-[224px] pb-[150px] xl:pt-[160px]">
         <div className="container mx-auto my-0 xl:px-[48px] md:px-[24px] text-center">
           <h1 className="h-strong text-white text-[42px] lg:text-[36px] md:text-[33px] sm:text-[30px] pb-[15px] text-shadow-h">
-          Outdoor Enthusiasts
+            Outdoor Enthusiasts
           </h1>
           <p className="text-[#919CB0] text-[15px] font-medium text-shadow-footer-links">
             Check all articles from this category below.
@@ -37,11 +36,12 @@ function Outdoor() {
       <div>
         <div className="grid grid-cols-4 lg:grid-cols-3 md:grid-cols-2 smm:grid-cols-1 gap-[12px] container mx-auto my-0 xl:px-[48px] md:px-[24px] translate-y-[-80px]">
           {grid.map((item, index) => (
-            <Link className="transition-all" to={`/single/${item.id}`}>
-              <div
-                className="card transition-all p-[15px] sm:p-[12px] rounded-[15px] box-border bg-white shadow-md"
-                key={index}
-              >
+            <Link
+              key={index}
+              className="transition-all"
+              to={`/single/${item.id}`}
+            >
+              <div className="card transition-all p-[15px] sm:p-[12px] rounded-[15px] box-border bg-white shadow-md">
                 <img
                   src={item.cover}
                   alt={item.name}

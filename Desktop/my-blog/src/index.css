@@ -240,3 +240,8 @@ swiper-container::part(bullet-active) {
 .border-topic {
   border-top: 1.5px solid white;
 }
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
