@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* date range styles */
+.rdrDayToday:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span:after,
+.rdrDayToday:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span:after,
+.rdrDayToday:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber span:after,
+.rdrDayToday:not(.rdrDayPassive) .rdrSelected ~ .rdrDayNumber span:after {
+  background-color: #fff !important;
+}
+
+.rdrDayToday .rdrDayNumber span:after {
+  background: #ed1d24 !important;
+}
+
+.rdrMonthAndYearPickers {
+  font-size: 16px;
+}
+
+.rdrDayNumber,
+.rdrWeekDay {
+  color: #1e1f23 !important;
+  font-weight: 500 !important;
+}
+
+@layer base {
+  body {
+    @apply text-primary bg-body;
+  }
+  p {
+    @apply text-secondary;
+  }
+  .h1 {
+    @apply text-4xl xl:text-[64px] text-primary xl:leading-[72px] font-extrabold mb-[18px];
+  }
+  .h2 {
+    @apply text-4xl mb-6 font-bold;
+  }
+  .h3 {
+    @apply text-xl mb-4 font-semibold;
+  }
+  .description {
+    @apply text-base xl:text-xl xl:leading-8;
+  }
+  .section {
+    @apply w-full h-screen pt-[60px] xl:pt-[120px];
+  }
+  .btn {
+    @apply rounded-[8px] w-full font-medium text-white text-[16px] flex justify-center items-center transition-all duration-300;
+  }
+  .btn-sm {
+    @apply h-[48px];
+  }
+  .btn-lg {
+    @apply h-16;
+  }
+  .btn-cta {
+    @apply bg-primary h-[51px] rounded-[8px] px-4 transition-all duration-300;
+  }
+  .btn-primary {
+    @apply bg-primary;
+  }
+  .btn-secondary {
+    @apply bg-secondary;
+  }
+  .btn-accent {
+    @apply bg-accent hover:bg-accent-hover;
+  }
+  .active {
+    @apply text-accent;
+  }
+}
+
+.header {
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px);
+  background: hsla(0, 0%, 100%, 0.96);
+  border-bottom: 1px solid #ebebeb;
+}
+
+.border-bottom-hero {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.search-bg {
+  background: hsla(0, 0%, 100%, 0.96);
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px);
+}
+
+.text-gradient {
+  background: rgb(85, 85, 85);
+  background: linear-gradient(
+    180deg,
+    rgba(85, 85, 85, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* swiper styles */
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #f13024;
+}
