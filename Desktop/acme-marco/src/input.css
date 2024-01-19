@@ -251,7 +251,7 @@ em.actv::before {
 }
 .enrol {
   @apply bg-[100%_100%] p-[13px] rounded-[25px];
-  background: url(../assets/images/ban_bggg.png) no-repeat;
+  background: url(assets/images/ban_bggg.png) no-repeat;
 }
 /*.enrol::before{content: "";background: url(../images/bg_ban1.png) no-repeat left bottom,url(../images/bg_ban.png) no-repeat right top}*/
 .enrol h1 {
@@ -262,12 +262,12 @@ em.actv::before {
 }
 .wht_btn {
   @apply inline-block leading-[55px] text-xl font-bold text-[#ed5a28] px-[66px] py-0 rounded-[25px] hover:text-white;
-  background: url(../assets/images/wht_bg2.png) no-repeat left 5px bottom,
-    url(../assets/images/wht_bg1.png) no-repeat right 4px top, #fff;
+  background: url(assets/images/wht_bg2.png) no-repeat left 5px bottom,
+    url(assets/images/wht_bg1.png) no-repeat right 4px top, #fff;
 }
 .wht_btn:hover {
-  background: url(../assets/images/wht_bg2.png) no-repeat left 5px bottom,
-    url(../assets/images/wht_bg1.png) no-repeat right 4px top, #303457;
+  background: url(assets/images/wht_bg2.png) no-repeat left 5px bottom,
+    url(assets/images/wht_bg1.png) no-repeat right 4px top, #303457;
 }
 .enrol_rgt {
   @apply relative text-center h-full inline-flex justify-center w-full items-end;
@@ -290,8 +290,8 @@ em.actv::before {
 }
 .courses {
   @apply pt-[60px] pb-[90px] px-0;
-  background: url(../assets/images/dash_bg.png) no-repeat top left,
-    url(../assets/images/dash_bg1.png) no-repeat bottom right, #f7f8fc;
+  background: url(assets/images/dash_bg.png) no-repeat top left,
+    url(assets/images/dash_bg1.png) no-repeat bottom right, #f7f8fc;
 }
 .label {
   @apply inline-flex items-start;
@@ -505,7 +505,7 @@ em.actv::before {
 .temp_fom input[type="text"] {
   @apply border h-[53px] w-full text-base text-black font-normal pl-7 pr-14 py-0 rounded-[30px] border-solid border-[#e1e2e7];
   font-family: "DM Sans";
-  background: url(../assets/images/search_icon.png) no-repeat right 22px center #fff;
+  background: url(assets/images/search_icon.png) no-repeat right 22px center #fff;
 }
 .temp_fom input[type="text"]::placeholder {
   @apply text-[#a7aabf];
@@ -524,7 +524,7 @@ em.actv::before {
 }
 .tem_tb li.arw a {
   @apply min-w-[160px] pr-[11px];
-  background: url(../assets/images/drop_dwon.png) no-repeat right 27px center;
+  background: url(assets/images/drop_dwon.png) no-repeat right 27px center;
 }
 .tem_tb .actv a {
   @apply text-[#ed5c25] border-[#ed5c25];
@@ -628,8 +628,8 @@ em.actv::before {
 }
 .acnt_btn {
   @apply flex relative overflow-hidden items-center justify-center mb-1.5 rounded-[100px];
-  background: url(../assets/images/btnba.png) no-repeat top -65px right 54px,
-    url(../assets/images/btnba2.png) no-repeat bottom -78px left 120px,
+  background: url(assets/images/btnba.png) no-repeat top -65px right 54px,
+    url(assets/images/btnba2.png) no-repeat bottom -78px left 120px,
     linear-gradient(100deg, rgba(238, 97, 30, 1) 0%, rgba(230, 66, 78, 1) 100%);
 }
 .acme_acnt em {
@@ -668,26 +668,26 @@ em.actv::before {
 }
 .ftr_sec .owl-prev {
   @apply left-[-17px] hover:left-0;
-  background: url(.../assets/images/arrow_left.png) no-repeat center center, #fff !important;
+  background: url(.assets/images/arrow_left.png) no-repeat center center, #fff !important;
 }
 .ftr_sec .owl-next {
   @apply right-[-17px] hover:right-0;
-  background: url(../assets/images/arrow_right.png) no-repeat center center, #fff !important;
+  background: url(assets/images/arrow_right.png) no-repeat center center, #fff !important;
 }
 .mrkt_btn {
   @apply leading-[53px];
-  background: url(../assets/images/cir1.png) no-repeat top -65px right 54px,
-    url(../assets/images/bb1.png) no-repeat bottom -6px left 120px,
+  background: url(assets/images/cir1.png) no-repeat top -65px right 54px,
+    url(assets/images/bb1.png) no-repeat bottom -6px left 120px,
     linear-gradient(100deg, rgba(238, 97, 30, 1) 0%, rgba(230, 66, 78, 1) 100%);
 }
 .acnt_btn img {
   @apply mr-[15px];
 }
 .ftr_sec .owl-prev:hover {
-  background: url(../assets/images/hvr_left.png) no-repeat center center, #ea5137 !important;
+  background: url(assets/images/hvr_left.png) no-repeat center center, #ea5137 !important;
 }
 .ftr_sec .owl-next:hover {
-  background: url(../assets/images/hvr_right.png) no-repeat center center, #ea5137 !important;
+  background: url(assets/images/hvr_right.png) no-repeat center center, #ea5137 !important;
 }
 
 /*course_list*/
@@ -707,7 +707,7 @@ em.actv::before {
 .cr_srrc form input[type="text"] {
   @apply w-[500px] h-[54px] text-base leading-5 font-normal text-black border px-[30px] py-0 rounded-[100px] border-solid border-[#dee0e6];
   font-family: "DM Sans";
-  background: url(../assets/images/srch.png) no-repeat right 30px center, #fff;
+  background: url(assets/images/srch.png) no-repeat right 30px center, #fff;
 }
 .cr_srrc ::placeholder {
   @apply text-[#a7aabf];
@@ -729,7 +729,7 @@ em.actv::before {
 }
 .cr_flt {
   @apply inline-block text-lg leading-[45px] font-bold text-[#181c3a] border w-[150px] pl-8 pr-[43px] py-0 rounded-[100px] border-solid border-[#a9abb9];
-  background: url(../assets/images/flt.png) no-repeat center left 25px;
+  background: url(assets/images/flt.png) no-repeat center left 25px;
 }
 .acme_acnt {
   background: #fff;
@@ -881,7 +881,7 @@ em.actv::before {
 .cmp_sr input[type="text"] {
   @apply w-full h-full shadow-[1px_8px_9px_#dadce3] text-[15px] leading-[18px] italic text-black px-7 py-0 rounded-[100px] border-[none] w-full h-full shadow-[1px_8px_9px_#dadce3] text-[15px] leading-[18px] italic text-black px-7 py-0 rounded-[100px] border-[none] pr-[60px];
   font-family: "DM Sans";
-  background: url(../assets/images/srch.png) no-repeat center right 30px, #fff;
+  background: url(assets/images/srch.png) no-repeat center right 30px, #fff;
 }
 .cmp_sr ::placeholder {
   @apply text-[#9295a9] text-[#9295a9];
@@ -892,7 +892,7 @@ em.actv::before {
 .frm_ct input[type="text"] {
   @apply w-full h-full border text-lg leading-5 text-black px-[22px] py-0 rounded-[10px] border-solid border-[#dbdde4] w-full h-full border text-lg leading-5 text-black px-[22px] py-0 rounded-[10px] border-solid border-[#dbdde4];
   font-family: "DM Sans";
-  background: url(../assets//images/dots.png) no-repeat center right 30px, #fff;
+  background: url(assets/images/dots.png) no-repeat center right 30px, #fff;
 }
 .cmp_bx .accordion-body {
   @apply p-0 p-0;
@@ -913,10 +913,10 @@ em.actv::before {
   background: none;
 }
 .cmp_bx .accordion-button:not(.collapsed)::after {
-  background: url(../assets/images/arrow_up.png) no-repeat right center;
+  background: url(assets/images/arrow_up.png) no-repeat right center;
 }
 .cmp_bx .accordion-button::after {
-  background: url(../assets/images/arrow_up.png) no-repeat right center;
+  background: url(assets/images/arrow_up.png) no-repeat right center;
 }
 .cmp_abs {
   @apply flex h-[30px] w-[37px] border items-center justify-center absolute rounded-[100px_0_0_100px] border-r-[transparent] border-solid border-[#d9dce2] right-0 top-[21px] flex h-[30px] w-[37px] border items-center justify-center absolute rounded-[100px_0_0_100px] border-r-[transparent] border-solid border-[#d9dce2] right-0 top-[21px];
@@ -1154,11 +1154,11 @@ em.actv::before {
 }
 .cmp_sr input[type="text"] {
   font-family: "DM Sans";
-  background: url(../assets/images/srch.png) no-repeat center right 30px, #fff;
+  background: url(assets/images/srch.png) no-repeat center right 30px, #fff;
 }
 .frm_ct input[type="text"] {
   font-family: "DM Sans";
-  background: url(../assets/images/dots.png) no-repeat center right 30px, #fff;
+  background: url(assets/images/dots.png) no-repeat center right 30px, #fff;
 }
 .cmp_bx .accordion-button {
   font-family: "DM Sans";
@@ -1169,10 +1169,10 @@ em.actv::before {
 }
 .cmp_bx .accordion-button:not(.collapsed)::after {
   @apply rotate-[0];
-  background: url(../assets/images/arrow_up.png) no-repeat right center;
+  background: url(assets/images/arrow_up.png) no-repeat right center;
 }
 .cmp_bx .accordion-button::after {
-  background: url(../assets/images/arrow_up.png) no-repeat right center;
+  background: url(assets/images/arrow_up.png) no-repeat right center;
 }
 .cmp_abs {
   background: #fff;
@@ -1244,12 +1244,12 @@ em.actv::before {
 }
 .utform_in label {
   @apply mb-4 pl-6;
-  background: url(../assets/images/ato_icon.png) no-repeat left center;
+  background: url(assets/images/ato_icon.png) no-repeat left center;
 }
 /*.ut_qot input[type="file"]{cursor: pointer; width:100%; background-color:#ed5c25;text-align:center; padding:15px 0; border-radius:30px;}*/
 .ut_title label {
   @apply block mb-1;
-  background: url(../assets/images/title1.png) no-repeat left center;
+  background: url(assets/images/title1.png) no-repeat left center;
 }
 .ut_title input[type="text"],
 .ut_title textarea {
@@ -1262,14 +1262,14 @@ em.actv::before {
   @apply pt-[26px] pb-5 px-2.5;
 }
 .butons label {
-  background: url(../assets/images/butons.png) no-repeat left center;
+  background: url(assets/images/butons.png) no-repeat left center;
 }
 .butons_btn {
   @apply bg-white border rounded-[10px] border-solid border-[#dbdde4];
 }
 .butons_btn a {
   @apply block text-lg leading-[60px] text-[#575b7c] pl-[23px] pr-[17px] py-0;
-  background: url(../assets/images/butones_li.png) no-repeat right 17px center;
+  background: url(assets/images/butones_li.png) no-repeat right 17px center;
 }
 .butons_btn li {
   @apply border-b-[#dbdde4] border-b border-solid last:border-[none];
@@ -1282,7 +1282,7 @@ em.actv::before {
   @apply px-2.5 py-[30px];
 }
 .align label {
-  background: url(../assets/images/align.png) no-repeat left center;
+  background: url(assets/images/align.png) no-repeat left center;
 }
 .align_list {
   @apply bg-white overflow-hidden rounded-[5px];
@@ -1344,7 +1344,7 @@ em.actv::before {
 }
 .utform_in .file_input label strong {
   @apply text-white pl-[30px] pr-0 py-0;
-  background: url(../assets/images/ato_icon1.png) no-repeat left center;
+  background: url(assets/images/ato_icon1.png) no-repeat left center;
 }
 
 /*homepage*/
@@ -1437,7 +1437,7 @@ em.actv::before {
 }
 .ban_home {
   @apply bg-[100%_60%] pt-[140px] pb-[95px] px-0 bg-[100%_65%];
-  background: url(../assets/images/ban_bg.webp) no-repeat;
+  background: url(assets/images/ban_bg.webp) no-repeat;
   background-size: 100% 60%;
   padding: 140px 0 95px;
 }
@@ -1481,7 +1481,7 @@ em.actv::before {
   @apply shadow-[0px_0px_87px_25px_rgba(0,0,0,0.15)] relative rounded-[30px] before:content-[""] before:absolute before:bottom-[-85px] before:w-52 before:h-52 before:z-[-1] before:right-[50px];
 }
 .ban_home_img::before {
-  background: url(../assets/images/dot.png) no-repeat bottom right;
+  background: url(assets/images/dot.png) no-repeat bottom right;
 }
 .ban_home_img img {
   @apply w-full;
@@ -1522,7 +1522,7 @@ em.actv::before {
 /*.home_btn { height: 60px; }*/
 .fea_main {
   @apply bg-[100%_100%] px-0 py-[65px];
-  background: url(../assets/images/fea_bg.webp) no-repeat left bottom;
+  background: url(assets/images/fea_bg.webp) no-repeat left bottom;
   background-size: 100% 100%;
 }
 .fea_sec {
@@ -1570,7 +1570,7 @@ em.actv::before {
   @apply right-[-35px];
 }
 .fea_sec::before {
-  background: url(../assets/images/dot.png) no-repeat;
+  background: url(assets/images/dot.png) no-repeat;
 }
 .fea_sec .home_btn {
   @apply text-[22px] leading-[30px] font-[normal] min-w-[360px] mt-[25px] hover:text-[19px];
@@ -1608,7 +1608,7 @@ em.actv::before {
   @apply ml-[15px];
 }
 .coun_sec::before {
-  background: url(../assets/images/dot.png) no-repeat;
+  background: url(assets/images/dot.png) no-repeat;
 }
 
 /*New_11.01.24*/
@@ -1629,7 +1629,7 @@ em.actv::before {
   @apply max-w-[1440px];
 }
 .why_choose:before {
-  background: url(../assets/images/whitebg.png) no-repeat 0 0;
+  background: url(assets/images/whitebg.png) no-repeat 0 0;
   background-size: 100% 100%;
 }
 .why_choose .head {
@@ -1671,7 +1671,7 @@ em.actv::before {
   @apply px-5 py-0;
 }
 .why_box:before {
-  background: url(../assets/images/frame1.png) no-repeat 0 0;
+  background: url(assets/images/frame1.png) no-repeat 0 0;
 }
 .why_box .d-flex .more_btn {
   @apply text-white text-[17.6px] inline-block mt-[15px] px-[25px] py-3 rounded-[50px] border-[3px] border-solid border-white hover:text-[#222];
@@ -1795,7 +1795,7 @@ em.actv::before {
 }
 .contact_box input[type="submit"] {
   @apply w-full h-[65px] text-white inline-block text-[22px] p-0 rounded-[30px] border-[none];
-  background: url(../assets/images/arw.png) no-repeat 60% center #181c3a;
+  background: url(assets/images/arw.png) no-repeat 60% center #181c3a;
   -webkit-appearance: none;
   font-family: "Larsseit-Bold";
 }
@@ -1804,29 +1804,29 @@ em.actv::before {
   background: #eff1fb;
 }
 .contact_innr:after {
-  background: url(../assets/images/frmbg1.png) no-repeat 0 0;
+  background: url(assets/images/frmbg1.png) no-repeat 0 0;
 }
 .contact_innr:before {
-  background: url(../assets/images/frmbg2.png) no-repeat 0 0;
+  background: url(assets/images/frmbg2.png) no-repeat 0 0;
 }
 .bx1 {
-  background: url(../assets/images/icon1.png) no-repeat right 20px center #fff !important;
+  background: url(assets/images/icon1.png) no-repeat right 20px center #fff !important;
 }
 .bx2 {
-  background: url(../assets/images/icon2.png) no-repeat right 20px center #fff !important;
+  background: url(assets/images/icon2.png) no-repeat right 20px center #fff !important;
 }
 .bx3 {
-  background: url(../assets/images/icon3.png) no-repeat right 20px center #fff !important;
+  background: url(assets/images/icon3.png) no-repeat right 20px center #fff !important;
 }
 .bx4 {
-  background: url(../assets/images/icon3.png) no-repeat right 20px top 25px #fff !important;
+  background: url(assets/images/icon3.png) no-repeat right 20px top 25px #fff !important;
 }
 .footer_sec2 {
   @apply w-full relative p-0 border-[none] before:w-full before:bg-[100%_100%] before:absolute before:content-[""] before:h-[189px] before:left-0 before:-top-40;
   background: #181c3a;
 }
 .footer_sec2:before {
-  background: url(../assets/images/ftrbg.png) no-repeat 0 0;
+  background: url(assets/images/ftrbg.png) no-repeat 0 0;
   background-size: 100% 100%;
 }
 .newslettr_sec {
@@ -1983,10 +1983,10 @@ em.actv::before {
   /*background:url(../images/acme_conin_ef1.png) no-repeat top -20px left -20px ,url(../images/acme_conin_ef2.png) no-repeat right 50% bottom 20px ;*/
 }
 .acme_colimg:before {
-  background: url(../assets/images/acme_conin_ef1.png) no-repeat;
+  background: url(assets/images/acme_conin_ef1.png) no-repeat;
 }
 .acme_colimg:after {
-  background: url(../assets/images/acme_conin_ef2.png) no-repeat;
+  background: url(assets/images/acme_conin_ef2.png) no-repeat;
 }
 .acme_colimg img {
   @apply max-w-full;
@@ -2006,7 +2006,7 @@ em.actv::before {
   background: #fff;
 }
 .faq_page.faq_sec .accordion-button {
-  @apply px-[30px] py-5 border-[none] after:bg-[url("../assets/images/arw.svg")];
+  @apply px-[30px] py-5 border-[none] after:bg-[url("assets/images/arw.svg")];
 }
 .faq_page.faq_sec .accordion-body {
   @apply pt-0 pb-5 px-[30px];
@@ -2052,29 +2052,29 @@ em.actv::before {
   @apply relative before:w-[400px] before:h-[290px] before:bg-[100%] before:absolute before:top-[-73px] before:content-[""] before:left-[170px] after:w-[400px] after:h-[200px] after:bg-[100%] after:absolute after:content-[""] after:right-[150px] after:top-5;
 }
 .ban_home.inner_ban .container:before {
-  background: url(../assets/images/banimg1.png) no-repeat 0 0;
+  background: url(assets/images/banimg1.png) no-repeat 0 0;
   background-size: 100%;
 }
 .ban_home.inner_ban .container:after {
-  background: url(../assets/images/banimg2.png) no-repeat 0 0;
+  background: url(assets/images/banimg2.png) no-repeat 0 0;
   background-size: 100%;
 }
 .faq_page.faq_sec::before {
-  background: url(../assets/images/innerbanbg.png) no-repeat 0 0;
+  background: url(assets/images/innerbanbg.png) no-repeat 0 0;
   background-size: 100% 100%;
 }
 .faq_pageInner {
   @apply w-full relative mt-[-300px];
 }
 .faq_page.faq_sec::after {
-  background: url(../assets/images/patterns1.png) no-repeat 0 0;
+  background: url(assets/images/patterns1.png) no-repeat 0 0;
   background-size: 100%;
 }
 .contact_faq.contact_sec {
   @apply relative before:w-[380px] before:h-[700px] before:bg-[100%_100%] before:absolute before:top-[-300px] before:content-[""] before:left-0;
 }
 .contact_faq.contact_sec::before {
-  background: url(../assets/images/patterns2.png) no-repeat 0 0;
+  background: url(assets/images/patterns2.png) no-repeat 0 0;
   background-size: 100% 100%;
 }
 .dwon_arw {
@@ -2095,18 +2095,18 @@ em.actv::before {
   );
 }
 .account::before {
-  background: url(../assets/images/curve2.png) no-repeat 0 0;
+  background: url(assets/images/curve2.png) no-repeat 0 0;
   background-size: 100% 100%;
 }
 .account .container {
   @apply max-w-[1920px] relative before:w-[400px] before:h-[290px] before:bg-auto before:bg-[100%] before:absolute before:top-[-73px] before:content-[""] before:left-[170px] after:w-[400px] after:h-[200px] after:bg-auto after:bg-[100%] after:absolute after:content-[""] after:right-[150px] after:top-5;
 }
 .account .container::before {
-  background: url(../assets/images/banimg1.png) no-repeat 0 0;
+  background: url(assets/images/banimg1.png) no-repeat 0 0;
   background-size: 100%;
 }
 .account .container::after {
-  background: url(../assets/images/banimg2.png) no-repeat 0 0;
+  background: url(assets/images/banimg2.png) no-repeat 0 0;
   background-size: 100%
 }
 .account_bx {
@@ -2119,18 +2119,18 @@ em.actv::before {
   font-family: "Gelion Light";
 }
 .account_bx input[type="email"] {
-  background: url(../assets/images/msg.png) no-repeat right 30px center,
-    url(../assets/images/mail.png) no-repeat left 30px center;
+  background: url(assets/images/msg.png) no-repeat right 30px center,
+    url(assets/images/mail.png) no-repeat left 30px center;
 }
 .account_bx input[type="password"] {
-  background: url(../assets/images/pass.png) no-repeat right 30px center,
-    url(../assets/images/pas.png) no-repeat left 30px center;
+  background: url(assets/images/pass.png) no-repeat right 30px center,
+    url(assets/images/pas.png) no-repeat left 30px center;
 }
 .account_bx input[type="password"]:focus {
-  background: url(../assets/images/pass.png) no-repeat right 30px center;
+  background: url(assets/images/pass.png) no-repeat right 30px center;
 }
 .account_bx input[type="email"]:focus {
-  background: url(../assets/images/msg.png) no-repeat right 30px center;
+  background: url(assets/images/msg.png) no-repeat right 30px center;
 }
 .account_bx input[type="submit"] {
   @apply w-full h-[60px] shadow-none text-[26px] leading-[33px] text-white transition-[0.5s] duration-[all] mb-[25px] rounded-[30px] border-[none] hover:shadow-[3px_0px_17px_6px_#f1f1f1] hover:text-[23px];
@@ -2154,10 +2154,10 @@ em.actv::before {
 }
 .account_bx span input[type="checkbox"] + label {
   @apply cursor-pointer pl-[30px];
-  background: url(../assets/images/chk1.png) no-repeat left center;
+  background: url(assets/images/chk1.png) no-repeat left center;
 }
 .account_bx span input[type="checkbox"]:checked + label {
-  background: url(../assets/images/chk.png) no-repeat left center;
+  background: url(assets/images/chk.png) no-repeat left center;
 }
 .account_bx b,
 .account_bx em {
@@ -2272,7 +2272,7 @@ em.actv::before {
 .pricing_boxInnr ul li {
   @apply w-full relative inline-block text-lg leading-[26px] text-[#444] mt-0 mb-2.5 mx-0 pl-[30px] p-0.5 last:mb-0;
   font-family: "Gelion Regular";
-  background: url(../assets/images/bullet.png) no-repeat left top 5px;
+  background: url(assets/images/bullet.png) no-repeat left top 5px;
 }
 .pricing_top .row {
   @apply -mx-5 my-0;
@@ -2317,7 +2317,7 @@ em.actv::before {
   background: #fff;
 }
 .plan_sec::before {
-  background: url(../assets/images/patterns2.png) no-repeat 0 0;
+  background: url(assets/images/patterns2.png) no-repeat 0 0;
   background-size: 100% 100%;
 }
 .plan_sec .container {
@@ -2333,7 +2333,7 @@ em.actv::before {
   @apply block text-center;
 }
 .explore::before {
-  background: url(../assets/images/innerbanbg.png) no-repeat 0 0;
+  background: url(assets/images/innerbanbg.png) no-repeat 0 0;
   background-size: 100% 100%;
 }
 .explore .container {
@@ -2347,14 +2347,14 @@ em.actv::before {
 }
 .premium_sec {
   @apply mt-[-150px] relative pt-[380px] pb-[125px] px-0 before:bg-[100%_100%] before:w-full before:absolute before:top-[-70px] before:content-[""] before:h-[480px] before:z-0 before:left-0 after:content-[""] after:w-52 after:h-52 after:absolute after:left-[150px] after:top-[260px];
-  background: #181c3a url(../assets/images/dot.png) no-repeat right bottom 210px;
+  background: #181c3a url(assets/images/dot.png) no-repeat right bottom 210px;
 }
 .premium_sec::before {
-  background: url(../assets/images/curve_dn.png) no-repeat 0 0;
+  background: url(assets/images/curve_dn.png) no-repeat 0 0;
   background-size: 100% 100%;
 }
 .premium_sec::after {
-  background: url(../assets/images/dot.png) no-repeat;
+  background: url(assets/images/dot.png) no-repeat;
 }
 .premium_sec .container {
   @apply max-w-[1440px] z-[1];
@@ -2374,7 +2374,7 @@ em.actv::before {
   background: rgba(255, 255, 255, 0.1);
 }
 .premi_bx .d-flex::before {
-  background: url(../assets/images/bd.png) no-repeat;
+  background: url(assets/images/bd.png) no-repeat;
 }
 .premi_bx .d-flex img {
   @apply w-24 object-cover inline-block mr-[30px];
@@ -2421,7 +2421,7 @@ em.actv::before {
 }
 .footer_sec.footer_sec2.foot_fea::before {
   @apply content-[""] bg-[100%_100%] w-full h-[210px] absolute block left-0 top-0;
-  background: url(../assets/images/bd_1.png) no-repeat;
+  background: url(assets/images/bd_1.png) no-repeat;
 }
 .contact_sec_fea {
   @apply pt-[65px] pb-[145px] px-0;
@@ -2486,10 +2486,10 @@ em.actv::before {
   @apply mt-auto;
 }
 .account_bx span input[type="checkbox"] + label {
-  background: url(../assets/images/chk.png) no-repeat left center;
+  background: url(assets/images/chk.png) no-repeat left center;
 }
 .account_bx span input[type="checkbox"]:checked + label {
-  background: url(../assets/images/chk1.png) no-repeat left center;
+  background: url(assets/images/chk1.png) no-repeat left center;
 }
 
 /*create*/
@@ -2499,23 +2499,23 @@ em.actv::before {
   font-family: "Gelion Light";
 }
 #fname {
-  background: url(../assets/images/name.png) no-repeat right 30px center,
-    url(../assets/images/name1.png) no-repeat left 30px center;
+  background: url(assets/images/name.png) no-repeat right 30px center,
+    url(assets/images/name1.png) no-repeat left 30px center;
 }
 #lname {
-  background: url(../assets/images/name.png) no-repeat right 30px center,
-    url(../assets/images/name2.png) no-repeat left 30px center;
+  background: url(assets/images/name.png) no-repeat right 30px center,
+    url(assets/images/name2.png) no-repeat left 30px center;
 }
 #company {
-  background: url(../assets/images/com.png) no-repeat right 30px center,
-    url(../assets/images/comm.png) no-repeat left 30px center;
+  background: url(assets/images/com.png) no-repeat right 30px center,
+    url(assets/images/comm.png) no-repeat left 30px center;
 }
 #fname:focus,
 #lname:focus {
-  background: url(../assets/images/name.png) no-repeat right 30px center;
+  background: url(assets/images/name.png) no-repeat right 30px center;
 }
 #company:focus {
-  background: url(../assets/images/com.png) no-repeat right 30px center;
+  background: url(assets/images/com.png) no-repeat right 30px center;
 }
 .create {
   @apply min-h-[1200px];
@@ -3635,11 +3635,11 @@ em.actv::before {
   #fname:focus,
   #lname:focus {
     @apply bg-[20px];
-    background: url(../assets/images/name.png) no-repeat right 30px center;
+    background: url(assets/images/name.png) no-repeat right 30px center;
   }
   #company:focus {
     @apply bg-[20px];
-    background: url(../assets/images/com.png) no-repeat right 30px center;
+    background: url(assets/images/com.png) no-repeat right 30px center;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -4556,11 +4556,11 @@ em.actv::before {
   #fname:focus,
   #lname:focus {
     @apply bg-[20px];
-    background: url(../assets/images/name.png) no-repeat right 30px center;
+    background: url(assets/images/name.png) no-repeat right 30px center;
   }
   #company:focus {
     @apply bg-[20px];
-    background: url(../assets/images/com.png) no-repeat right 30px center;
+    background: url(assets/images/com.png) no-repeat right 30px center;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -4719,7 +4719,7 @@ em.actv::before {
     @apply hidden;
   }
   .enrol {
-    background: url(../assets/images/bg1.jpg) no-repeat bottom center;
+    background: url(assets/images/bg1.jpg) no-repeat bottom center;
   }
   .footer_sec {
     @apply px-0 py-[15px];
@@ -5241,8 +5241,8 @@ em.actv::before {
     @apply w-[95%];
   }
   .acnt_btn {
-    background: url(../assets/images/btnba.png) no-repeat top -65px right 24px,
-      url(../assets/images/btnba2.png) no-repeat bottom -78px left 30px,
+    background: url(assets/images/btnba.png) no-repeat top -65px right 24px,
+      url(assets/images/btnba2.png) no-repeat bottom -78px left 30px,
       linear-gradient(100deg, rgb(238, 97, 30) 0%, rgb(230, 66, 78) 100%);
   }
   .coursevid_rgt #coursevid_rel {
