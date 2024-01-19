@@ -1,0 +1,79 @@
+.contact_box input[type="submit"] {
+  width: 100%;
+  height: 65px;
+  background: url(../images/arw.png) no-repeat 60% center #181c3a;
+  border-radius: 30px;
+  padding: 0px;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  color: #fff;
+  font-family: "Larsseit-Bold";
+  display: inline-block;
+  font-size: 22px;
+}
+
+.faq_box {
+  z-index: 5;
+  position: relative;
+}
+
+.faq_box .collapse {
+  visibility: visible !important;
+}
+
+.faq_sec .collapse {
+  visibility: visible !important;
+}
+/* 
+@media (max-width: 991px) {
+  .collapse {
+    visibility: collapse!important;
+  }
+} */
+
+.contact_rtBox input[type="submit"] {
+  background: url(../images/arw.png) no-repeat 60% center #181c3a !important;
+}
+
+.cmp_bx .collapse {
+  visibility: visible !important;
+}
+
+.collapse {
+  visibility: visible !important;
+}
+
+.home_header .drop-arw::before {
+  content: "\f107";
+  color: #fff;
+  font-family: "Font Awesome 6 Pro";
+  transition: 0.5s all;
+}
+
+.menu_sec li {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: fixed !important;
+    top: 0;
+    right: -400px;
+    background: #e6e9f0;
+    width: 234px;
+    z-index: 11;
+    height: 100%;
+    overflow: auto;
+    left: inherit;
+    display: block !important;
+    transition: all 0.3s ease;
+  }
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
