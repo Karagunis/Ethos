@@ -8,6 +8,8 @@ module.exports = {
     screens: {
       "2xl": { max: "1500px" },
 
+      xxl: { max: "1300px" },
+
       xl: { max: "1240px" },
 
       x: { max: "1150px" },

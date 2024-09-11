@@ -1466,6 +1466,16 @@ body {
 .woman {
   filter: drop-shadow(0px 9px 12px rgba(0, 0, 0, 0.05));
   -webkit-filter: drop-shadow(0px 9px 12px rgba(0, 0, 0, 0.05));
+  position: absolute!important;
+  bottom: 0%!important;
+  left: 50%!important;
+  transform: translate(10%, 0%)!important;
+}
+
+@media (max-width: 1760px) {
+  .woman {
+    max-width: 660px !important;
+  }
 }
 
 @media (max-width: 1600px) {
@@ -1641,6 +1651,28 @@ body {
 
   .\32xl\:text-\[24px\] {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .xxl\:max-w-\[500px\] {
+    max-width: 500px;
+  }
+
+  .xxl\:max-w-\[499px\] {
+    max-width: 499px;
+  }
+
+  .xxl\:justify-normal {
+    justify-content: normal;
+  }
+
+  .xxl\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .xxl\:text-\[21px\] {
+    font-size: 21px;
   }
 }
 
@@ -2000,6 +2032,10 @@ body {
 
   .md\:text-\[60px\] {
     font-size: 60px;
+  }
+
+  .md\:text-\[18px\] {
+    font-size: 18px;
   }
 
   .md\:leading-\[48px\] {
