@@ -1466,17 +1466,17 @@ body {
 .woman {
   filter: drop-shadow(0px 9px 12px rgba(0, 0, 0, 0.05));
   -webkit-filter: drop-shadow(0px 9px 12px rgba(0, 0, 0, 0.05));
-  position: absolute!important;
+  /* position: absolute!important;
   bottom: 0%!important;
   left: 50%!important;
-  transform: translate(10%, 0%)!important;
+  transform: translate(10%, 0%)!important; */
 }
 
-@media (max-width: 1760px) {
+/* @media (max-width: 1760px) {
   .woman {
     max-width: 660px !important;
   }
-}
+} */
 
 @media (max-width: 1600px) {
   .woman {
@@ -1655,10 +1655,6 @@ body {
 }
 
 @media (max-width: 1300px) {
-  .xxl\:max-w-\[500px\] {
-    max-width: 500px;
-  }
-
   .xxl\:max-w-\[499px\] {
     max-width: 499px;
   }
@@ -1736,10 +1732,6 @@ body {
 
   .xl\:text-\[18px\] {
     font-size: 18px;
-  }
-
-  .xl\:text-\[21px\] {
-    font-size: 21px;
   }
 
   .xl\:text-\[42px\] {
@@ -2026,16 +2018,16 @@ body {
     font-size: 16px;
   }
 
+  .md\:text-\[18px\] {
+    font-size: 18px;
+  }
+
   .md\:text-\[36px\] {
     font-size: 36px;
   }
 
   .md\:text-\[60px\] {
     font-size: 60px;
-  }
-
-  .md\:text-\[18px\] {
-    font-size: 18px;
   }
 
   .md\:leading-\[48px\] {
@@ -2131,10 +2123,6 @@ body {
 
   .sm\:pt-\[42px\] {
     padding-top: 42px;
-  }
-
-  .sm\:text-\[18px\] {
-    font-size: 18px;
   }
 
   .sm\:leading-\[44px\] {
