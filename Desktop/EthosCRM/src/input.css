@@ -218,6 +218,20 @@ body {
   transform: translate(-50%, 46px) !important;
 }
 
+.category-nav:hover .dropdown-new {
+  opacity: 1 !important;
+  display: grid !important;
+  position: absolute;
+  top: 22px !important;
+  left: 50% !important;
+  transform: translate(-50%, 46px) !important;
+}
+
+.dropdown-new {
+  box-shadow: 0px 35px 39px -27px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 35px 39px -27px rgba(0, 0, 0, 0.15);
+}
+
 .nav-mobile {
   background-color: white;
   position: fixed;
@@ -323,4 +337,78 @@ body {
 
 .overflow-b {
   overflow-y: hidden;
+}
+
+.iconic-dropic:hover .imgic {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+.iconic-dropic .imgic {
+  transition: all 250ms;
+}
+
+.iconic-dropic {
+  transition: all 250ms;
+}
+
+.outter-white:hover .inner-white {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.07);
+}
+
+.outter-white {
+  transition: all 250ms;
+  position: relative;
+  height: 100%;
+}
+
+.inner-white {
+  transition: all 250ms;
+  position: relative;
+  z-index: 9;
+  background: white;
+  height: 100%;
+}
+
+.outter-white:hover .img-inner, .outter-white:hover .img-inner-2 {
+  display: block!important;
+}
+
+
+.gridic-fleksic {
+  display: grid;
+    grid-template-columns: .5fr 1fr;
+}
+
+
+.hoveric:hover img {
+  opacity: 1;
+}
+
+.hoveric {
+  transition: all 250ms;
+}
+
+.hoveric img {
+  transition: all 250ms;
+}
+
+.hoveric span {
+  transition: all 250ms;
+}
+
+.hoveric:hover {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.07);
+}
+
+.hoveric:hover .span-1 {
+ font-weight: bold;
+ color: #05014E;
+}
+
+.hoveric:hover .span-2 {
+  font-weight: bold;
+  color: #FF0035;
 }
