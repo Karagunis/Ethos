@@ -97,6 +97,12 @@ body {
   }
 }
 
+@media(max-width:599px) {
+  .swiper-navigations {
+    top: 46%;
+  }
+}
+
 @media (max-width: 1300px) {
   .ornament {
     display: none;
@@ -112,6 +118,32 @@ body {
   .swiper-button-prev {
     height: 54px !important;
     width: 54px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .swiper-button-next {
+    height: 42px !important;
+    width: 42px !important;
+    right: -16px !important;
+  }
+
+  .swiper-button-prev {
+    height: 42px !important;
+    width: 42px !important;
+    left: -16px !important;
+  }
+
+  .swiper-button-next img {
+    width: 14px;
+    height: auto;
+    display: block;
+  }
+
+  .swiper-button-prev img {
+    width: 14px;
+    height: auto;
+    display: block;
   }
 }
 
@@ -175,15 +207,15 @@ body {
   }
 } */
 
-@media (max-width: 1600px) {
+@media (max-width: 1800px) {
   .woman {
-    max-width: 660px !important;
+    max-width: 760px !important;
   }
 }
 
 @media (max-width: 1500px) {
   .woman {
-    max-width: 580px !important;
+    max-width: 650px !important;
   }
 }
 
@@ -239,7 +271,7 @@ body {
   top: 0;
   right: 0;
   height: 100vh;
-  max-width: 320px;
+  max-width: 100%;
   width: 100%;
   padding: 24px;
   overflow-y: auto;
@@ -411,4 +443,10 @@ body {
 .hoveric:hover .span-2 {
   font-weight: bold;
   color: #FF0035;
+}
+
+@media(min-width: 2400px) {
+  body {
+    zoom:110%;
+  }
 }
