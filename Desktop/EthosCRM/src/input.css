@@ -450,3 +450,37 @@ body {
     zoom:110%;
   }
 }
+
+.dropdown-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+
+.dropdown__content {
+	max-height: 0;
+	transition: 200ms;
+
+	overflow: hidden;
+	padding: 0 1rem;
+}
+
+.dropdown__title::before {
+	content: "+";
+	display: inline-block;
+	margin-right: 0.5em;
+	width: 1em;
+}
+
+/* Active Dropdown Styles */
+
+.dropdown.active .dropdown__content {
+	max-height: 100vh;
+	padding: 1rem;
+	transition: 400ms;
+}
+
+.dropdown.active .dropdown__title::before {
+	content: "-";
+}
