@@ -1323,6 +1323,14 @@ video {
   padding-top: 74px;
 }
 
+.pb-\[0\] {
+  padding-bottom: 0;
+}
+
+.\!pb-\[0\] {
+  padding-bottom: 0 !important;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2253,6 +2261,10 @@ body {
 }
 
 @media (max-width: 800px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
